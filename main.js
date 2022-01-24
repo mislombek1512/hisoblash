@@ -54,7 +54,7 @@ for (let i = 1; i <= savol; i++) {
         document.write(num1 + ' * ' + num2 + ' = ' + res + ' To\'g\'ri!' + '<br>');
         s++;
     } else {
-        document.write(num1 + ' * ' + num2 + ' = ' + res + ' Xatolik! (Javob:' + (num1 * num2) + ')<br>');
+        document.write(num1 + ' * ' + num2 + ' = ' + res + ' Xatolik (Javob:' + (num1 * num2) + ')<br>');
     }
 }
 if (s == savol) {
